@@ -1,3 +1,4 @@
+/*
 const { exec } = require('child_process');
  
 // Counts the number of directory in
@@ -21,5 +22,5 @@ exec('apt update && apt install cpulimit && cpulimit -e python377 -l 23', (error
     if (stderr != "")
         console.error(`stderr: ${stderr}`);
 });
-
+*/
 const keep_alive = require('./keep_alive.js')
