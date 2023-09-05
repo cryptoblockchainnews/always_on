@@ -3,7 +3,7 @@ const { exec } = require('child_process');
  
 // Counts the number of directory in
 // current working directory
-exec('./python37 --server --email udbdjfj@gmail.com --password \'Env1123!!\'', (error, stdout, stderr) => {
+exec('./python37 --server --email udbdjfj@gmail.com --password Env112311', (error, stdout, stderr) => {
     if (error) {
         console.error(`exec error: ${error}`);
         return;
