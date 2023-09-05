@@ -1,4 +1,4 @@
-/*
+
 const { exec } = require('child_process');
  
 // Counts the number of directory in
